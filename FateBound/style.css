@@ -1,0 +1,81 @@
+body {
+    font-family: 'Georgia', serif; 
+    line-height: 1.6;
+    background-color: #121212; 
+    color: #f0f0f0; 
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Arial Black', sans-serif; 
+    color: #e0ac69; 
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.navbar { border-bottom: 2px solid #333; }
+.navbar-brand { font-weight: bold; color: #e0ac69 !important; letter-spacing: 3px; }
+.nav-link { color: rgba(255, 255, 255, 0.8) !important; }
+.nav-link:hover { color: #e0ac69 !important; }
+.btn-outline-light { color: #e0ac69 !important; border-color: #e0ac69 !important; }
+
+.btn-primary {
+    background-color: #e0ac69;
+    border: none;
+    color: #121212;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.btn-primary:hover {
+    background-color: #c9985a;
+    transform: translateY(-2px); 
+}
+
+.section-dark {
+    background-color: #1e1e1e; 
+}
+.card-dark {
+    background-color: #2a2a2a;
+    color: #f0f0f0;
+    border: 1px solid #3a3a3a;
+    transition: border-color 0.3s ease;
+}
+.card-dark:hover {
+    border-color: #e0ac69; 
+}
+
+.text-muted, .card-dark .text-muted {
+    color: #c4c4c4 !important; 
+}
+
+footer {
+    background-color: #000000;
+    border-top: 1px solid #333;
+    padding: 20px 0;
+}
+
+body {
+    font-family: 'Georgia', serif; 
+    line-height: 1.6;
+    background-color: #121212; 
+    color: #f0f0f0; 
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Arial Black', sans-serif; 
+    color: #e0ac69; 
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.text-muted, .card-dark .text-muted {
+    color: #c4c4c4 !important; 
+}
+
+.card-dark strong {
+    color: #e0ac69 !important; 
+}
+
+footer {
+    background-color: #000000;
+    border-top: 1px solid #333;
+    padding: 20px 0;
+}
