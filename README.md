@@ -10,11 +10,13 @@ La aplicación web está desplegada de forma permanente en:
 
 ## Tecnologías y Componentes
 
-| Componente | Tecnología | Enfoque de Ingeniería |
-| **Backend/Lógica** | **PHP** | Manejo de formularios, conexión a la DB y lógica de servidor. |
-| **Base de Datos** | **MySQL** | Almacenamiento de datos dinámicos (personajes, historias). |
-| **Seguridad DB** | **PDO / Sentencias Preparadas** | Implementado para prevenir ataques de Inyección SQL. |
-| **Frontend/Diseño** | HTML5, CSS3, **Bootstrap** | Diseño responsivo y coherente con la identidad del juego. |
+Backend/Lógica: Se utilizó PHP para el manejo de formularios, la lógica del servidor y la orquestación de la conexión con la base de datos.
+
+Base de Datos: Se implementó MySQL para el almacenamiento seguro y la gestión de datos dinámicos del proyecto, como la información de los personajes y el contenido futuro del foro/historias.
+
+Seguridad de la Base de Datos: Se utilizó PDO (Objetos de Datos de PHP) y Sentencias Preparadas en el archivo db_connect.php para implementar un enfoque de seguridad proactivo y prevenir ataques de Inyección SQL.
+
+Frontend/Diseño: Se combinó HTML5 y CSS3 con el framework Bootstrap. Esto aseguró un diseño responsivo, moderno y coherente con el estilo visual oscuro del proyecto, permitiendo que la interfaz se vea bien en cualquier dispositivo.
 
 ## Estructura del Repositorio
 
